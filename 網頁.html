@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="網頁.css">
+    <script src="網頁.js" defer></script>
+    <title>刃</title>
+</head>
+<body background="刃pv.png" style="background-repeat: no-repeat;background-size: 100%;overflow: hidden;">
+    <div class="container">
+        <div>
+            <video id="pv" controls>
+                <source src="「死兆将至」.mp4">
+            </video>
+        </div>
+        <div class="main">
+            <div class="nav">
+                <button id="goHomeButton">回到首頁</button>
+                <table>
+                    <tr>
+                        <td><a href="#intro">角色簡介</a></td>
+                        <td><a href="#story">角色故事</a></td>
+                        <td><a href="#skills">技能介紹</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content">
+                <!--首頁部分-->
+                <div class="homepage">
+                    <div class="organ">
+                        <img src="到不了的彼岸.png">
+                    </div>
+                    <div class="text" style="text-indent: 20px; margin: 40px 20px 15px 20px;">
+                        <p style="margin: 40px 20px 15px 20px;"><span id="name0">刃</span><span id="title">「死亡何时而至？我等得有些心焦了。」</span></p>
+                        <p id="text_main">棄身鋒刃的劍客，原名不詳。效忠於「命運的奴隸」，擁有恐怖的自癒能力。手持古劍作戰，劍身遍布破碎裂痕，正如其身，亦如其心。</p>
+                        <p id="text_main">星核獵手成員。本名「應星」，爲仙舟「羅浮」鍛造武器的工匠，「雲上五驍」之一。「飲月之亂」後放棄原來身份，在卡芙卡和薩姆邀請下加入星核獵手。由於魔陰身時常會發作，經常會陷入癲狂的狀態，需要卡芙卡用言靈為他抑制魔陰身。</p>
+                    </div>
+                </div>
+                <!--角色簡介部分-->
+                <div id="intro">
+                    <div class="box">
+                        <div class="titleNine">
+                            <img src="彼岸花.png" width="20px">
+                            基本訊息
+                        </div>
+                        <div class="intro">
+                            <img src="刃立繪.png" id="info_img">
+                            <div class="info_text">
+                                <table>
+                                    <tr><td id="name">刃</td></tr>
+                                    <tr height="50px" style="vertical-align: text-top;"><td><span id="major">業途游魂</span></td></tr>
+                                    <tr>
+                                        <td id="info">陣營</td>
+                                        <td id="info_right">星核獵手</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="info">命途</td>
+                                        <td id="info_right">毀滅</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="info">戰鬥屬性</td>
+                                        <td id="info_right">風</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="info">種族</td>
+                                        <td id="info_right">短生種(受倏忽赐予長生並成魔陰身)</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="info">體型</td>
+                                        <td id="info_right">成男</td>
+                                    </tr>
+                                    <tr>
+                                        <td id="info">卡池</td>
+                                        <td id="info_right">限定UP</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="titleNine">
+                            <img src="彼岸花.png" width="20px">
+                            互動語音
+                        </div>
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 初次見面</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">開拓者…我不認識你。这對你而言，是件好事。</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 問候</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">又来了？…被我記住的人，结果都不會很好。</td></tr>
+                            </table>
+                        </div>
+                        
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 道別</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">走吧，「魔陰身」發作的时候，最好别在我身旁。</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 關於名字</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">消磨自己，撕碎敵人，便是兵刃。</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 關於魔陰身</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">人皆有魔陰，或各有不同，我的情况殊為特别。即便常受魔陰作祟，我卻對此記憶寥寥：無論是悔恨、仇怨，還是思念與惶然……</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 關於狂魔</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">魔陰發作時，我就是另一个人了。</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 閒談星核獵手</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">我们藉由彼此之手，達成目的。</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 閒談不死身</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">「這次，將是最後一次」的期许，最终都消减在察覺肉體癒合的痛苦中。</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 閒談代價</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">人有五名，代價有三個——這句话刻在我每一處傷口裡……</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 刃的爱好</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">「刃」的存在，唯有揮剑的刹那，才能消失片刻。</td></tr>
+                            </table>
+                        </div>
+
+                        <div class="others">
+                            <table height="100px">
+                                <tr>
+                                    <td id="othersName">● 刃的煩惱</td>
+                                </tr>
+                                <tr height="50px"><td id="othersQuote">死亡何時而至？我等得有些心焦了。</td></tr>
+                            </table>
+                        </div>
+                        <br><br><br>
+                    </div>
+                    <!--角色故事-->
+                    <div id="story">
+                        <div class="story">
+                            <div class="storyContent">
+                                <h1 id="storyTitle">角色故事一</h1>
+                                <p>他只能見一片殷紅，嘴裡腥甜，四肢綿軟——</p>
+                                <p>自己應是死了。</p>
+                                <p></p>
+                                <p>「記住了嗎？」</p>
+                                <p>他茫然地張了張嘴，那聲響如未開化的野獸。</p>
+                                <p>喉嚨裡的聲音戛然而止，冰冷的硬物穿過了他。</p>    
+                                <p>如此反覆，足有千次。</p>    
+                                <p></p>
+                                <p>好生奇妙。肌理斷裂時，他能聽見筋骨橋接彌合的細微聲響。</p>    
+                                <p>好生奇妙。體內的怪物被滋養著，他卻要任它長為龐然巨物。</p>   
+                                <p>好生奇妙。他已喪失生存的信念，軀體卻自顧自地恢復如初。</p>   
+                                <p>好生奇妙。</p>
+                                <p></p>
+                                <p>當劍再次試圖刺穿他的身體之前，他抓住了劍，慢慢起身。</p>
+                                <p>「記住了嗎？」</p>                                    
+                                <p>他的目光對上女人血紅的眼睛，腦中仍是一片空白——</p>                                    
+                                <p>他再一次被刺穿。</p>
+                                <p>「記住死亡的感覺，帶給他們。」</p>    
+                                <p></p>
+                                <p>眼底的殷紅又泛了上來，他盯著地上那殺他的劍，劍刃碎了半截。</p>    
+                                <p>「起來，讓我再殺你一次。」</p>
+                            </div>
+                            
+                            <div class="storyContent">
+                                <h1 id="storyTitle">角色故事二</h1>
+                                <p>他只能見一片殷紅，嘴裡腥甜，四肢綿軟——</p>
+                                <p>自己應是死了。</p>
+                                <p></p>
+                                <p>黑髮的少年渾身顫抖著，卻仍緊緊攥著手中的長槍。</p>
+                                <p>他沒有龍角，反應也比記憶中更為稚嫩——</p>
+                                <p>但他不會認錯這把長槍，不會認錯那雙眼睛，那靜如湖面的青綠下是怎樣的殘酷。</p>    
+                                <p>傷口開始癒合，他轉了轉眼珠，看向少年。</p>    
+                                <p>少年毫不猶豫地再次揮動長槍——</p>
+                                <p></p>
+                                <p>「就是這樣。」</p>    
+                                <p>對敵斬盡殺絕的人，是你。</p>   
+                                <p>一手葬送摯愛的人，是你。</p>   
+                                <p>差點引致故鄉毀滅的人，還是你。</p>
+                                <p></p>
+                                <p>他再次倒了下去。</p>
+                                <p>少年捂著身上的傷口，步步後退，直至離開他的視線。</p>                                    
+                                <p>「███，在親眼見證你的死期之前，我們會再見面的。」</p>                                    
+                            </div>
+
+                            <div class="storyContent">
+                                <h1 id="storyTitle">角色故事三</h1>
+                                <p>他只能見一片殷紅，嘴裡腥甜，四肢綿軟——</p>
+                                <p>自己應是死了。</p>
+                                <p></p>
+                                <p>怪物再次吞噬了他，但這次他面對的不是別人。</p>
+                                <p>高大的鎧甲沉默不語，他被牢牢禁錮在那雙手臂中，說話的是戴墨鏡的女人。</p>
+                                <p></p>    
+                                <p>「聽我說，我可以再殺你一遍，否則沒法把你帶回去。」</p>    
+                                <p>她的聲音很溫柔，連他體內的怪物也安靜了下來，聽她說話。</p>
+                                <p>「但我不想那麼做。」</p>    
+                                <p>女人俯下身，在他耳邊輕語。那是他無法拒絕的交易。</p>   
+                                <p>「你們想要什麼？」</p>   
+                                <p>「還有比目睹不死之人如何死去更令人高興的事嗎？『他』這麼說。」</p>
+                                <p></p>
+                                <p>高大的鎧甲鬆開了手臂。「命運」已在前方，他會同他們一起走。</p>
+                                <p>「聽我說，阿刃，放輕鬆。」</p>                                    
+                                <p>「聽我說，你什麼都不要想。」</p>                                    
+                                <p>他點點頭，女人走到他身邊。她笑著，他卻覺得那笑容非常悲傷。</p>
+                                <p>「也許有人離開了她，沒有聽她說完話。」他想。</p>    
+                            </div>
+
+                            <div class="storyContent">
+                                <h1 id="storyTitle">角色故事四</h1>
+                                <p>他什麼都看不見了。</p>
+                                <p></p>
+                                <p>他想起幾十年前，自己隨商船來到仙舟，為此地的鬼斧神工所折服。</p>
+                                <p>少年茶飯不思，肆意揮灑自己的靈感，他鍛造百種奇物，其中有四件最為著名。</p>
+                                <p></p>
+                                <p>名為「支離」的劍通體無瑕，漆色中泛著血光，只有仙舟最強劍士方能詮釋此劍的真諦。</p>    
+                                <p>狐人少女曾在絕境中用曲弓三箭併發，卻仍不忘一邊駕駛星槎一邊同眾人談笑。</p>    
+                                <p>黑髮龍角的男子以御水之術為同伴療傷，在下個瞬間又將水附著於長槍之上，瞬間刺穿敵方。</p>
+                                <p>還有那總愛同他拌嘴的少年，見到這把陣刀時，卻是一把搶了過去，再也不願放手。</p>    
+                                <p></p>   
+                                <p>如今，██已經死了，這最初的、唯一的死亡。</p>   
+                                <p>但他仍在此處，那尚如少年的頭腦思索著，他將永遠思索著。</p>
+                                <p>他思索著自己不再靈巧的雙手，那雙手已無法再打造任何兵刃——</p>
+                                <p>但這一切與他無關。</p>
+                                <p>從今往後，那具軀殼，將是唯一的「刃」。</p>                                    
+                            </div>
+                            <br><br><br>
+                        </div>
+                    </div>
+                    <!--技能介紹-->
+                    <div id="skills">
+                        <div class="skills">
+                            <img src="刃技能.png" id="skills_img">
+                            <div class="skills_right">
+                                <div class="skillDes" style="margin-left: -20px;"!important;>
+                                    <table width="280px" height="50px" style="border-radius: 5px;">
+                                        <tr height="20px">
+                                            <td rowspan="2"><img src="普攻.png"></td>
+                                            <td id="skillsName" height="20px">支離劍</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="description" height="20px">[單體攻擊]對指定敵方單體造成等同於刃50%攻擊力的風屬性傷害。▏無間劍樹 [擴散]消耗等同於刃生命值上限10%的生命值，對指定敵方單體造成等同於刃20%攻擊力+50%生命上限的風屬性傷害，同時對其相鄰目標造成等同於刃8%攻擊力+20%生命上限的風屬性傷害。</td>                                    
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="skillDes" style="margin: 10px 0 0 -20px;"!important;>
+                                    <table width="280px"  height="50px">
+                                        <tr height="20px">
+                                            <td rowspan="2"><img src="戰技.png"></td>
+                                            <td id="skillsName" height="20px">地域變</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="description" height="20px">消耗等同於刃生命上限30%的生命值，進入【地獄變】狀態。處於【地獄變】狀態時無法施放戰技，同時使自身造成的傷害提高12%，普通攻擊【支離劍】強化為【無間劍樹】，持續3回合。</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="skillDes" style="margin: 10px 0 0 -20px;"!important;>
+                                    <table width="280px"  height="50px">
+                                        <tr height="20px">
+                                            <td rowspan="2"><img src="天賦.png"></td>
+                                            <td id="skillsName" height="20px">倏忽恩賜</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="description" height="20px">[群體攻擊]刃受到傷害或消耗生命值時，獲得1層充能，最多疊加5層。該效果每次受到攻擊時最多疊加1層。當充能疊加至上限時，立即對敵方全體發動一次追加攻擊，造成等同於刃22%攻擊力+55%生命上限的風屬性傷害並回復等同於刃生命上限25%的生命值。發動追加攻擊後，消耗所有充能。</td>
+                                         </tr>
+                                    </table>
+                                </div>
+                                <div class="skillDes" style="margin: 10px 0 0 -20px;"!important;>
+                                    <table width="280px"  height="50px">
+                                        <tr height="20px">
+                                            <td rowspan="2"><img src="終結技.png"></td>
+                                            <td id="skillsName" height="20px">大辟萬死</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="description" height="20px">終結技｜消耗能量130[擴散]將刃的現有生命值調整為生命上限的50%，並對敵方單體造成等同於刃24%攻擊力+60%生命上限+60%本場戰鬥累積已損失生命值的風屬性傷害，同時對其相鄰目標造成等同於刃9.6%攻擊力+24%生命上限+24%本場戰鬥累積已損失生命值的風屬性傷害。</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="skillDes" style="margin: 10px 0 0 -20px;"!important;>
+                                    <table width="280px"  height="50px">
+                                        <tr height="20px">
+                                            <td rowspan="2"><img src="秘技.png"></td>
+                                            <td id="skillsName" height="20px">業途風</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="description" height="20px">立即攻擊敵人，進入戰鬥後消耗等同於刃生命上限20%的生命值，同時對敵方全體造成等同於刃生命上限40%的風屬性傷害。若現有生命值不足，則施放秘技時刃的現有生命值降低至1點。</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                               
+        </div>
+    </div>
+</body>
+</html>
